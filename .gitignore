@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Runtime databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Protected uploads
+server/data/uploads/
+uploads/
+
+# Logs
+*.log
+logs/
